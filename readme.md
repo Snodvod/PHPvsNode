@@ -18,6 +18,17 @@ Een PHP of Node website online deployen. Uiteraard heeft PHP hier een enorm voor
 
 ## Performance
 
+Om de performance van Node en PHP met elkaar te vergelijken gebruik ik de command line tool apache benchmark. Bij elke test laat ik 2000 requests uitvoeren. Ze zullen met 25 tegelijkertijd uitgevoerd worden. Onderstaande tabel toont de requests/second.
+
+Test results:
+
+|Tech  |Hello		 |Variables   	|   |   |
+|------|-------------|--------------|---|---|
+|PHP   |2301.29 req/s|3581.84 req/s |   |   |
+|Node  |3229.49 req/s|3702.25 req/s |   |   |
+
+
+
 ## Versions
 - Node.js: v5.2.0
 - PHP: 7.0.0
